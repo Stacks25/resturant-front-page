@@ -1,0 +1,119 @@
+body{
+    background-image: url("resturantbck.jpg");
+    margin: 0;
+}
+
+/*style the background of the navigation tab*/
+.top-tab{
+    background-color:burlywood;
+    overflow:hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.top-tab a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 19px 20px;
+    text-decoration:none;
+    font-size: 17px;
+  }
+
+  /*schange color when we hover on menu*/
+  
+.top-tab a:hover{
+    background-color: crimson;
+    color: beige;
+
+
+}
+
+/*search styling*/
+
+
+form{
+padding:80px;
+display:flex;
+width:80%;
+float:inherit;
+
+}
+
+input{
+    width:100%;
+    border-radius:3px;
+    border:1px;
+    display:inline;
+    width:100%;
+}
+input:hover{
+    border-radius:5px;
+    border:2px;
+}
+button{
+    cursor:pointer;
+    border-radius:1px; 
+    background-color:#fff;
+    color:#669;
+    width:30px;
+    font-size:20px;
+    color: black;
+    
+}
+
+ #cellGrids{
+    height: 150px;
+    margin:25px 45px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap:5px;
+}
+
+.cell{
+    color:rgb(133, 153, 102);
+    font-size:24px;
+    text-align:center;
+    padding:80px;
+}
+
+.cell a{
+    background-color: beige;
+    color: black;
+}
+.cell a:hover{ 
+    background-color: black;
+    color: aliceblue;
+}
+.cell-1 {
+    background-image:url("dish.jpg");
+    background-repeat:no-repeat;
+    background-size:600px;
+  }
+  .cell-2 {
+    background-image:url("dishofday.jpg");
+    background-repeat:no-repeat;
+    background-size:600px;
+  }
+  .cell-3 {
+    background-image: url("orders.jpg");
+    background-repeat:no-repeat;
+    background-size:600px;
+  }
+  .cell-4 {
+    background-image:url("other.jpg");
+    background-repeat:no-repeat;
+    background-size:600px;
+  }
+  .cell-5 {
+    background-image:url("reservation.jpg");
+    background-repeat:no-repeat;
+    background-size:600px;
+  }
+  .cell-6 {
+    background-image:url("resturant.jpg");
+    background-repeat:no-repeat;
+    background-size:600px;
+  }
+ 
